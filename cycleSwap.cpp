@@ -4,7 +4,7 @@
 
 
 // Inputting cycleSwap.
-void In(cycleSwap &r, std::ifstream stream) {
+void In(cycleSwap &r, std::ifstream &stream) {
     stream.getline(r.encryptedScript, 10000);
     stream >> r.n;
 }
@@ -20,6 +20,6 @@ void InRnd(cycleSwap &r) {
 
 
 // Outputting cycleSwap.
-void Out(cycleSwap &r, std::ofstream stream) {
+void Out(cycleSwap &r, std::ofstream& stream) {
     stream << "cycleSwap:" << "\n" <<  "encrypted:" << r.encryptedScript << "\n" << "N = " << r.n;
 }

@@ -4,7 +4,7 @@
 
 
 // Inputting pointerSwap.
-void In(pointerSwap &a,  std::ifstream stream) {
+void In(pointerSwap &a,  std::ifstream &stream) {
     stream.getline(a.encryptedSrypt, 10000);
     for(int i = 0; i < 26; i++){
         stream >> a.arr[i];
@@ -24,7 +24,7 @@ void InRnd(pointerSwap &a) {
 
 
 // Outputting pointerSwap.
-void Out(pointerSwap &a, std::ofstream stream) {
+void Out(pointerSwap &a, std::ofstream &stream) {
     stream << "PointerSwap: \n" << a.encryptedSrypt << "\n";
     for(int i = 0; i < 26; i++){
         stream << (char)(i+48) << " " << (char)(a.arr[i]+48) << "\n";

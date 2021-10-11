@@ -37,7 +37,7 @@ void InRnd(container &c, int size) {
 
 
 // Output from container.
-void Out(container &c, std::ofstream stream) {
+void Out(container &c, std::ofstream &stream) {
     stream << "Container contains" << c.len << "elements.\n";
     for (int i = 0; i < c.len; i++) {
         stream << i << ":";

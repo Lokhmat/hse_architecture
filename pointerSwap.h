@@ -2,8 +2,8 @@
 #define __pointerSwap__
 
 
-#include "stdio.h"
-#include "cipher.h"
+#include <fstream>
+
 
 // pointerSwap structure.
 struct pointerSwap {
@@ -13,7 +13,7 @@ struct pointerSwap {
 
 
 // Inputting pointerSwap.
-void In(pointerSwap &a, std::ifstream stream);
+void In(pointerSwap &a, std::ifstream &stream);
 
 
 // Creating pointerSwap.
@@ -21,7 +21,7 @@ void InRnd(pointerSwap &a);
 
 
 // Outputting random pointerSwap.
-void Out(pointerSwap &a, std::ofstream stream);
+void Out(pointerSwap &a, std::ofstream &stream);
 
 
 #endif // __pointerSwap__

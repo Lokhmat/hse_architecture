@@ -5,7 +5,7 @@
 
 
 // Inputting cipher.
-cipher *In(std::ifstream stream) {
+cipher *In(std::ifstream &stream) {
     cipher *cf;
     int k;
     stream >> k;
@@ -57,7 +57,7 @@ cipher *InRnd() {
 
 
 // Outputting cipher.
-void Out(cipher &r, std::ofstream stream) {
+void Out(cipher &r, std::ofstream &stream) {
     switch(r.k){
         case cipher::CYCLE:
             Out(r.a, stream);

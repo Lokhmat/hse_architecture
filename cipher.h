@@ -2,8 +2,6 @@
 #define __cipher__
 
 
-#include <stdio.h>
-#include <fstream>
 #include "cycleSwap.h"
 #include "numberSwap.h"
 #include "pointerSwap.h"
@@ -35,7 +33,7 @@ cipher *InRnd();
 
 
 // Outputting Cipher.
-void Out(cipher &r, std::ofstream stream);
+void Out(cipher &r, std::ofstream &stream);
 
 
 // Comparable value of Cipher.
@@ -47,4 +45,4 @@ int countLength(const char line[]);
 
 int countSum(const char line[]);
 
-#endif // __riddle__
+#endif //__cipher__

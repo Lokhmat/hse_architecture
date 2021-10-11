@@ -7,7 +7,7 @@
 //------------------------------------------------------------------------------
 
 #include "cipher.h"
-#include "stdio.h"
+
 //------------------------------------------------------------------------------
 // Простейший контейнер на основе одномерного массива
 struct container {
@@ -23,13 +23,13 @@ void Init(container &c);
 void Clear(container &c);
 
 // Ввод содержимого контейнера из указанного потока
-void In(container &c, std::ifstream stream);
+void In(container &c, std::ifstream &stream);
 
 // Случайный ввод содержимого контейнера
 void InRnd(container &c, int size);
 
 // Вывод содержимого контейнера в указанный поток
-void Out(container &c, std::ofstream stream);
+void Out(container &c, std::ofstream &stream);
 
 // Вычисление суммы периметров всех фигур в контейнере
 double Sorting(container &c);

@@ -2,8 +2,7 @@
 #define __cycleSwap__
 
 
-#include "stdio.h"
-#include "cipher.h"
+#include <fstream>
 
 
 
@@ -15,7 +14,7 @@ struct cycleSwap {
 
 
 // Inputting cycleSwap.
-void In(cycleSwap &r, std::ifstream stream);
+void In(cycleSwap &r, std::ifstream &stream);
 
 
 // Creating random cycleSwap.
@@ -23,7 +22,7 @@ void InRnd(cycleSwap &p);
 
 
 // Outputting cycleSwap.
-void Out(cycleSwap &r, std::ofstream stream);
+void Out(cycleSwap &r, std::ofstream &stream);
 
 
 #endif // __cycleSwap__

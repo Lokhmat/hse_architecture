@@ -3,7 +3,7 @@
 #include <fstream>
 
 // Inputting numberSwap.
-void In(numberSwap &p, std::ifstream stream) {
+void In(numberSwap &p, std::ifstream &stream) {
     char inputStr[10000];
     char inp[2];
     stream.getline(inputStr, 10000);
@@ -29,7 +29,7 @@ void InRnd(numberSwap &p) {
 
 
 // Outputting numberSwap.
-void Out(numberSwap &r, std::ofstream stream) {
+void Out(numberSwap &r, std::ofstream &stream) {
     stream << "numberSwap:" << "\n" <<  "encrypted:" << r.encryptedScript << "\n" ;
     stream << "table of intersection of symbols\n";
     for(int i = 0; i < 30; i++){
