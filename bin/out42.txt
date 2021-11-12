@@ -1,0 +1,43 @@
+Sorted container:
+Container contains 1 elements.
+0:numberSwap:
+encrypted: 956 469 100 101 211 280 336 913 912 854 
+table of intersection of symbols
+0 956
+1 596
+2 678
+3 469
+4 494
+5 211
+6 584
+7 24
+8 458
+9 295
+a 507
+b 726
+c 554
+d 280
+e 324
+f 782
+g 352
+h 262
+i 290
+j 913
+k 912
+l 675
+m 787
+n 336
+o 868
+p 854
+q 100
+r 101
+s 102
+t 103
+u 104
+v 105
+w 106
+x 107
+y 109
+z 0
+decrypted:03qr5dnjkp
+Comparable value: 91.4

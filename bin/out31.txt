@@ -1,0 +1,266 @@
+Filled container:
+Container contains 10 elements.
+0:numberSwap:
+encrypted: 344 901 555 190 
+table of intersection of symbols
+0 344
+1 901
+2 970
+3 100
+4 94
+5 547
+6 937
+7 555
+8 190
+9 101
+a 102
+b 103
+c 104
+d 105
+e 106
+f 107
+g 108
+h 957
+i 765
+j 570
+k 700
+l 850
+m 211
+n 538
+o 425
+p 514
+q 187
+r 279
+s 423
+t 539
+u 262
+v 337
+w 483
+x 277
+y 945
+z 586
+decrypted:0178
+Comparable value: 52
+1:cycleSwap:
+encrypted:upkohshhdgsqafgirlzpjbrvxxdhdgnkduekaafgwlbcbnqlbpoirjfzgjoqdjoujptgaarbqgexbgzjqinwwhoazxm
+N = 24
+decrypted:ejokrgrrvsgiytsqhnbjpxhdbbvrvsloveuoyytscnxwxlinxjkqhptbspkivpkepjfsyyhxisubxsbpiqlccrkybbm
+Comparable value: 110.176
+2:cycleSwap:
+encrypted:jzrjpaxswrhndakqnowuhoghxqjufmcoewxvmugvoiclowrrhmhdhlceapsijwjqgoqenvidsntohjcvpdjjlalbpixhovuhpclpxcnzi
+N = 58
+decrypted:xhpxrgjokpztdgwqtskmzsazjqxmbuesckjlumalsyevskppzuzdzvecgroyxkxqasqctlydotnszxelrdxxvgvfryjzslmzrevrjethy
+Comparable value: 111.476
+3:cycleSwap:
+encrypted:dllgjggqrxainxvxlvglppreyatfmgufmdyczdfhtztlrdfvrjtrrpthwrcbhzpzlqasfbnzacpipzpgvzjeziimhcgadmrhqizwzhqcxmcqcydgcsqfyvlejjsnmiffjjlwyjmqoazthlatxoxzgxmsbgipbbyhwmawvjocyffcydtofozzwwlciaaapbphnkbdxnneyonsxld
+N = 52
+decrypted:xppuruukjdasndfdpfuplljwcahvougvoxcybxvthbhpjxvfjrhjjlhtejyztblbpkaivznbaylslblufbrwbssotyuaxojtksbebtkydoykycxuyikvcfpwrrinosvvrrpecrokmabhtpahdmdbudoizuslzzcteoaefrmycvvycxhmvmbbeepysaaalzltnqzxdnnwcmnidpx
+Comparable value: 109.435
+4:PointerSwap: 
+encrypted:owtvyffzzsalyiaahvtwgsjikjdqxdnksvctlhktsdznsenryevctzmkmgsupwuhvkcaqefpyoqkeextftnfqyrhltsounjleqtjdhixggygejvpupomdgtuydfkmfztgqrppfvpxlondtmqkqwgefyixhloewktexmfvpogdyhgqpnwlegqkiyhwmuvrmpadknfgskbyeuig
+p 0
+c 1
+8 2
+d 3
+l 4
+0 5
+1 6
+2 7
+3 8
+4 9
+5 a
+6 b
+7 c
+8 d
+9 e
+j f
+f g
+g h
+n i
+m j
+0 k
+k l
+7 m
+3 n
+1 o
+2 p
+b q
+6 r
+5 s
+o t
+a u
+4 v
+h w
+i x
+9 y
+e z
+decrypted:1ho49jjee55k9n55g4ohf5mn0m8bi830547okg0o58e359369947oe707f5a2hag4075b9j291b099iojo3jb96gko51a3mk9bom8gniff9f9m42a2178foa98j07jeofb622j42ik138o7b0bhf9j9nigk19h0o9i7j421f89gfb23hk9fb0n9gh7a46725803jf50699anf
+Comparable value: 77.6049
+5:numberSwap:
+encrypted: 127 609 634 622 105 
+table of intersection of symbols
+0 127
+1 609
+2 439
+3 273
+4 612
+5 714
+6 200
+7 52
+8 687
+9 924
+a 108
+b 235
+c 39
+d 438
+e 277
+f 78
+g 634
+h 398
+i 786
+j 822
+k 582
+l 974
+m 513
+n 766
+o 268
+p 622
+q 555
+r 190
+s 101
+t 102
+u 103
+v 104
+w 105
+x 106
+y 107
+z 109
+decrypted:01gpw
+Comparable value: 86.2
+6:PointerSwap: 
+encrypted:iyrcpcfcfgeiuaeefqlkdhkttpbnxeilwldyaduehdvzonrzxweewtolacuxtzjmajkpdrgvczrjiztztmfrpesxcgjwfsvjsajnhbfklupdqeabtvdoxkiyviuwcbfgylwjxlfzgzipoxvekeuivnqwkjiyygkszerfbnapbdcxckrozuliemhdzayxkphonmtlogweoidkndrwxki
+i 0
+o 1
+8 2
+p 3
+g 4
+d 5
+4 6
+c 7
+0 8
+f 9
+6 a
+j b
+5 c
+a d
+h e
+0 f
+1 g
+2 h
+3 i
+4 j
+5 k
+6 l
+7 m
+8 n
+9 o
+m p
+1 q
+3 r
+b s
+e t
+k u
+7 v
+9 w
+n x
+2 y
+l z
+decrypted:3235m50501h3k6hh0165a25eemj8nh3696a26akh2a7l983ln9hh9e9665knel47645ma3175l343lele703mhbn51490b74b6482j056kma1h6je7a9n53273k95j012694n60l1l3m9n7h5hk378195432215blh30j86mja5n5539lk63h72al62n5m2987e6919h93a58a39n53
+Comparable value: 72.1469
+7:cycleSwap:
+encrypted:swuhycbowlajoueegicdcocbjajzzwhgen
+N = 58
+decrypted:okmziefskvgxsmccayedesefxgxhhkzact
+Comparable value: 108
+8:numberSwap:
+encrypted: 804 972 323 104 546 77 279 102 
+table of intersection of symbols
+0 804
+1 604
+2 20
+3 521
+4 550
+5 934
+6 447
+7 77
+8 714
+9 389
+a 341
+b 405
+c 935
+d 778
+e 340
+f 339
+g 455
+h 126
+i 972
+j 279
+k 468
+l 637
+m 546
+n 222
+o 238
+p 323
+q 555
+r 190
+s 101
+t 102
+u 103
+v 104
+w 105
+x 106
+y 107
+z 109
+decrypted:0ipvm7jt
+Comparable value: 96.125
+9:numberSwap:
+encrypted: 988 
+table of intersection of symbols
+0 988
+1 187
+2 265
+3 577
+4 774
+5 788
+6 476
+7 772
+8 697
+9 304
+a 346
+b 244
+c 729
+d 482
+e 441
+f 618
+g 687
+h 187
+i 379
+j 963
+k 55
+l 89
+m 832
+n 732
+o 7
+p 69
+q 555
+r 190
+s 101
+t 102
+u 103
+v 104
+w 105
+x 106
+y 107
+z 109
+decrypted:0
+Comparable value: 48

@@ -2,36 +2,36 @@
 #define __container__
 
 //------------------------------------------------------------------------------
-// container.h - содержит тип данных,
-// представляющий простейший контейнер
+// container.h - contains data type,
+// describes normal data container
 //------------------------------------------------------------------------------
 
 #include "cipher.h"
 
 //------------------------------------------------------------------------------
-// Простейший контейнер на основе одномерного массива
+// ПSimple container with usual array
 struct container {
     enum {max_len = 10000}; // максимальная длина
     int len; // текущая длина
     cipher *cont[max_len];
 };
 
-// Инициализация контейнера
+// Container initialization
 void Init(container &c);
 
-// Очистка контейнера от элементов (освобождение памяти)
+// Container clearance
 void Clear(container &c);
 
-// Ввод содержимого контейнера из указанного потока
+// Container input from string
 void In(container &c, std::ifstream &stream);
 
-// Случайный ввод содержимого контейнера
+// Random input to container
 void InRnd(container &c, int size);
 
-// Вывод содержимого контейнера в указанный поток
+// Output to stream
 void Out(container &c, std::ofstream &stream);
 
-// Вычисление суммы периметров всех фигур в контейнере
-double Sorting(container &c);
+// Container sorting with coctail sort
+void cocktailSort(container &c);
 
 #endif

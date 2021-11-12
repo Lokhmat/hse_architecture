@@ -20,6 +20,7 @@ struct cipher {
         numberSwap p;
         pointerSwap r;
     };
+    double comparable;
 };
 
 
@@ -44,5 +45,11 @@ int countLength(const char line[]);
 
 
 int countSum(const char line[]);
+
+void countCycleDecrypted(cipher &r);
+
+void countNumberDecrypted(cipher &r);
+
+void countPointerDecrypted(cipher &r);
 
 #endif //__cipher__

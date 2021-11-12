@@ -6,7 +6,7 @@
 // numberSwap structure.
 struct numberSwap {
     int encryptedScript[10000];
-    int table[26];
+    int table[36];
 };
 
 

@@ -17,7 +17,6 @@ set(SOURCE_FILES
         container.h
         numberSwap.h
         pointerSwap.h
-        pair.h
 
         # Sources
         cipher.cpp

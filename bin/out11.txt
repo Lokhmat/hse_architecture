@@ -1,0 +1,17 @@
+Filled container:
+Container contains 3 elements.
+0:cycleSwap:
+encrypted:advbca
+N = 5
+decrypted:fcqedf
+Comparable value: 102.833
+1:cycleSwap:
+encrypted:adsfadvxvwefae
+N = 20
+decrypted:urcpurbdbcqpuq
+Comparable value: 108.786
+2:cycleSwap:
+encrypted:asfdadfawjasjidfhas
+N = 1111
+decrypted:tboqtqotxktbklqomtb
+Comparable value: 110.368

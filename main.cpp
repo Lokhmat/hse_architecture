@@ -1,10 +1,10 @@
 //------------------------------------------------------------------------------
-// main.cpp - главная функция для задания поведения программы
+// main.cpp - main func for full programm
 //------------------------------------------------------------------------------
 
 #include <fstream>
-#include <cstdlib> // для функций rand() и srand()
-#include <ctime>   // для функции time()
+#include <cstdlib> // rand() and srand()
+#include <ctime>   // time()
 #include <cstring>
 #include <stdio.h>
 #include "container.h"
@@ -37,7 +37,7 @@ int main(int argc, char* argv[]) {
     Init(c);
 
     if(!strcmp(argv[1], "-f")) {
-        std::ifstream stream(argv[1]);
+        std::ifstream stream(argv[2]);
         In(c, stream);
     }
     else if(!strcmp(argv[1], "-n")) {
@@ -46,9 +46,9 @@ int main(int argc, char* argv[]) {
             printf("incorrect numer of objects = %d. Set 0 < number <= 10000\n", size);
             return 3;
         }
-        // системные часы в качестве инициализатора
+        // sys clock as initializer
         srand((unsigned int)(time(0)));
-        // Заполнение контейнера генератором случайных чисел
+        // Random container generation
         InRnd(c, size);
     }
     else {
@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
         return 2;
     }
 
-    // Вывод содержимого контейнера в файл
+    // Container output to file
 
     std::ofstream outStream1(argv[3]);
     outStream1 << "Filled container:\n";
@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
 
     // The 2nd part of task
     std::ofstream outStream2(argv[4]);
-    Sorting(c);
+    cocktailSort(c);
     outStream2 << "Sorted container:" << "\n";
     Out(c, outStream2);
 

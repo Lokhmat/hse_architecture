@@ -1,5 +1,6 @@
 #include "container.h"
 #include <fstream>
+#include <iostream>
 
 // Container initialization.
 void Init(container &c) {
@@ -22,6 +23,10 @@ void In(container &c, std::ifstream &stream) {
         if ((c.cont[c.len] = In(stream)) != 0) {
             ++c.len;
         }
+        else{
+            std::cout << "Wrong input answer may not be correct\n";
+            break;
+        }
     }
 }
 
@@ -38,7 +43,7 @@ void InRnd(container &c, int size) {
 
 // Output from container.
 void Out(container &c, std::ofstream &stream) {
-    stream << "Container contains" << c.len << "elements.\n";
+    stream << "Container contains " << c.len << " elements.\n";
     for (int i = 0; i < c.len; i++) {
         stream << i << ":";
         Out(*(c.cont[i]), stream);
@@ -46,7 +51,7 @@ void Out(container &c, std::ofstream &stream) {
 }
 
 
-//
+// Cocktail sort implementation for container
 void cocktailSort(container &c){
     bool flag = true;
     cipher temp;
@@ -55,7 +60,7 @@ void cocktailSort(container &c){
     while(flag){
         flag = false;
         for(int i = start; i<end; i++){ //scan from left to right as bubble sort
-            if(getComparable(*c.cont[i]) > getComparable(*c.cont[i+1])){
+            if(c.cont[i]->comparable > c.cont[i+1]->comparable){
                 temp = *c.cont[i];
                 *c.cont[i] = *c.cont[i+1];
                 *c.cont[i+1] = temp;
@@ -68,7 +73,7 @@ void cocktailSort(container &c){
         flag = false;
         end--; //decrease the end pointer
         for(int i = end - 1; i >= start; i--){ //scan from right to left
-            if(getComparable(*c.cont[i]) > getComparable(*c.cont[i+1])){
+            if(c.cont[i]->comparable > c.cont[i+1]->comparable){
                 temp = *c.cont[i];
                 *c.cont[i] = *c.cont[i+1];
                 *c.cont[i+1] = temp;

@@ -8,7 +8,7 @@
 // pointerSwap structure.
 struct pointerSwap {
     char encryptedSrypt[10000];
-    int arr[26];
+    int arr[36];
 };
 
 
