@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
     cocktailSort(c);
     outStream2 << "Sorted container:" << "\n";
     Out(c, outStream2);
-
+    Clear(c);
     printf("Stop\n");
     return 0;
 }
